@@ -1,4 +1,96 @@
-h1{
-    font-size: 60px;
-    color: red;
+/* google font cdn */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;600&family=Mulish:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif&family=Outfit:wght@500;600;700;800;900&display=swap');
+
+
+
+
+
+
+/* common style start here */
+
+*{
+    margin:0;
+    font-family: 'Outfit', sans-serif;
+    
 }
+.container{
+    width: 1320px;
+    display: flex;
+    margin: 0 auto;
+    gap:20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+   font-family: 'Mulish', sans-serif;
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 28px;
+   color:#FFFFFF;
+}
+
+.btn{
+    width: 170px;
+    height: 62px;
+    color:#0360CD;
+    background-color: #FFFFFF;
+    margin-top:40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;    
+}
+.btn i{
+    margin-left: 20px;
+}
+
+
+/* Hero section style start here */
+
+.container-hero{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    gap:20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section{
+    background: linear-gradient(105.78deg, #025FCC 22.04%, #1FA6FD 100%);
+    padding-top:186px; 
+    padding-left: 60px;
+    height: 800px;
+   
+
+}
+
+.hero-info{
+    width: 55%;
+    
+}
+
+.hero-info h2{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 87px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+
+/* Hero's image section start here  */
+
+.hero-image{
+    width: 45%;
+    
+}
+.hero-image img{
+    width: 552px;
+    height: 542px;
+}
+
+
