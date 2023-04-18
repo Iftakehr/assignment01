@@ -312,5 +312,66 @@ p{
    
 }
 
+/* Footer section */
+
+.container-footer{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    gap:55px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000F2C;
+    margin-top:45px;
+    color: #FFFFFF;
+    padding-top: 121px;
+
+}
+
+.container-footer h5{
+    font-size: 38px;
+    font-weight: 800;
+    font-weight: 48px;
+    color:#FFFFFF;
+    
+}
+.container-footer span{
+    font-size: 23px;
+    font-weight: 700;
+    font-weight: 29px;
+    color:#FFFFFF;
+    
+}
+
+.container-footer small{
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: 19px;
+    color:#FFFFFF;
+    
+}
+
+.container-footer p{
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: 39px;
+    color:#C7C7C7;
+    
+}
+.social{
+    padding-left: 45px;   
+    width: 33%;
+
+}
+.link{
+    width: 33%;
+
+}
+
+.contact-footer{
+    width: 33%;
+}
+
 
 
