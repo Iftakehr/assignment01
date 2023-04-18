@@ -264,5 +264,53 @@ p{
 
 }
 
+/* Positive mind style section start here */
+.positive-info{
+    background: linear-gradient(105.78deg, #025FCC 22.04%, rgba(31, 166, 253, 0.1) 100%);
+    opacity: 0.3;
+   
+}
+
+.positive-info{
+    background: linear-gradient(105.78deg, #025FCC 22.04%, rgba(31, 166, 253, 0.1) 100%);
+    opacity: 1;
+
+
+}
+.bg-section{
+    background-image: url(images/hand-watch.png);
+    background-repeat: no-repeat;
+    width:1320px;
+    background-size: contain;
+    background-position: right;
+    margin-left: 113px;
+    margin-top: 45px;
+}
+
+
+
+.positive-info h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 116px;
+    padding-left: 30px;
+    color:#ffffff;
+}
+#btn5{
+    width: 170px;
+    height: 62px;
+    color:#0360CD;
+    background-color: #FFFFFF;
+    margin-top:40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    border:none;
+    border-radius: 5px;  
+    margin-left: 45px;
+   
+}
+
 
 
